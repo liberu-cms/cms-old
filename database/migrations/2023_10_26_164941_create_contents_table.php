@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('contents', function (Blueprint $table) {
             $table->integer('content_id', true);
-            $table->string('content_title');
+            $table->string('content_title')->unique();
             $table->text('content_body');
             $table->integer('author_id');
             $table->date('published_date')->nullable();
