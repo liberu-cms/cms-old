@@ -1,0 +1,20 @@
+{
+    "name": "Content Category",
+    "routePrefix": "content-category",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Category ID",
+            "name": "id",
+            "data": "content_categories.content_category_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Category Name",
+            "name": "category_name",
+            "data": "content_categories.content_category_name",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}

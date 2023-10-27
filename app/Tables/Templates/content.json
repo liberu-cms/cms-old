@@ -1,0 +1,38 @@
+{
+    "name": "Content",
+    "routePrefix": "content",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Content ID",
+            "name": "id",
+            "data": "contents.content_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Title",
+            "name": "title",
+            "data": "contents.content_title",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Body",
+            "name": "body",
+            "data": "contents.content_body",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Category ID",
+            "name": "category_id",
+            "data": "contents.content_category_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Author ID",
+            "name": "author_id",
+            "data": "contents.author_id",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}

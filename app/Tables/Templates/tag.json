@@ -1,0 +1,20 @@
+{
+    "name": "Tag",
+    "routePrefix": "tag",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Tag ID",
+            "name": "id",
+            "data": "tags.tag_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Tag Name",
+            "name": "name",
+            "data": "tags.tag_name",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}

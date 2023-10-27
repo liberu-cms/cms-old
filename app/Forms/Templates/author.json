@@ -1,0 +1,48 @@
+{
+  "routePrefix": "author",
+  "tabs": true,
+  "sections": [
+    {
+      "tab": "Author Information",
+      "columns": 2,
+      "fields": [
+        {
+          "label": "First Name",
+          "name": "author_name",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "Last Name",
+          "name": "author_last_name",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "text"
+          }
+        },
+        {
+          "label": "Email",
+          "name": "author_email",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "email"
+          }
+        },
+        {
+          "label": "Phone",
+          "name": "author_phone",
+          "value": null,
+          "meta": {
+            "type": "input",
+            "content": "number"
+          }
+        }
+      ]
+    }
+  ]
+}
