@@ -1,0 +1,22 @@
+{
+    "routePrefix": "content-category",
+    "tabs": true,
+    "sections": [
+      {
+        "tab": "Category Information",
+        "columns": 1,
+        "fields": [
+          {
+            "label": "Category Name",
+            "name": "content_category_name",
+            "value": null,
+            "meta": {
+              "type": "input",
+              "content": "text"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

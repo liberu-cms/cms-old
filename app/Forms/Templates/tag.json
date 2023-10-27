@@ -1,0 +1,22 @@
+{
+    "routePrefix": "tag",
+    "tabs": true,
+    "sections": [
+      {
+        "tab": "Tag Information",
+        "columns": 1,
+        "fields": [
+          {
+            "label": "Tag Name",
+            "name": "tag_name",
+            "value": null,
+            "meta": {
+              "type": "input",
+              "content": "text"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

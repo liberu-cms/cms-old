@@ -1,0 +1,62 @@
+{
+    "name": "Content",
+    "routePrefix": "content",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Content ID",
+            "name": "id",
+            "data": "contents.content_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Title",
+            "name": "title",
+            "data": "contents.content_title",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Body",
+            "name": "body",
+            "data": "contents.content_body",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Category ID",
+            "name": "category_id",
+            "data": "contents.content_category_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Author ID",
+            "name": "author_id",
+            "data": "contents.author_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Published Date",
+            "name": "published_date",
+            "data": "contents.published_date",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Content Type",
+            "name": "content_type",
+            "data": "contents.content_type",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Content Status",
+            "name": "content_status",
+            "data": "contents.content_status",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Featured Image URL",
+            "name": "featured_image_url",
+            "data": "contents.featured_image_url",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Author",
+    "routePrefix": "author",
+    "crtNo": true,
+    "buttons": ["excel", "create", "show", "edit", "destroy"],
+    "columns": [
+        {
+            "label": "Author ID",
+            "name": "id",
+            "data": "authors.author_id",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "First Name",
+            "name": "first_name",
+            "data": "authors.author_name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Last Name",
+            "name": "last_name",
+            "data": "authors.author_last_name",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Email",
+            "name": "email",
+            "data": "authors.author_email",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Phone",
+            "name": "phone",
+            "data": "authors.author_phone",
+            "meta": ["searchable", "sortable"]
+        }
+    ]
+}
