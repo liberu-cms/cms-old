@@ -33,6 +33,30 @@
             "name": "author_id",
             "data": "contents.author_id",
             "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Published Date",
+            "name": "published_date",
+            "data": "contents.published_date",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Content Type",
+            "name": "content_type",
+            "data": "contents.content_type",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Content Status",
+            "name": "content_status",
+            "data": "contents.content_status",
+            "meta": ["searchable", "sortable"]
+        },
+        {
+            "label": "Featured Image URL",
+            "name": "featured_image_url",
+            "data": "contents.featured_image_url",
+            "meta": ["searchable", "sortable"]
         }
     ]
 }
