@@ -14,8 +14,12 @@ class Content extends Model
     protected $fillable = [
         'content_title',
         'content_body',
-        'content_category_id',
         'author_id',
+        'published_date',
+        'content_type',
+        'category_id',
+        'content_status',
+        'featured_image_url',
     ];
 
     public function author()
