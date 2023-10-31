@@ -15,8 +15,8 @@ return new class extends Migration
             $table->integer('author_id', true);
             $table->string('author_name');
             $table->string('author_last_name');
-            $table->string('author_email');
-            $table->string('author_phone');
+            $table->string('author_email')->unique();
+            $table->string('author_phone')->unique();
             $table->timestamps();
         });
     }
